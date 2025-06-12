@@ -11,7 +11,7 @@ A voice-activated AI assistant inspired by Alexa, built for the browser using mo
 
 - 🎙️ **Voice Input & Output**: Speak to the assistant using your microphone; hear replies via text-to-speech
 - 🌐 **Multi-language Support**: Understands English, Hindi, and other languages
-- 🔁 **Context Awareness**: Handles follow-up questions (e.g., "What about tomorrow?")
+- 🔁 **Context Awareness**: Handles follow-up questions
 - 💡 **Smart Task Execution**:
   - General knowledge Q&A
   - Setting reminders
