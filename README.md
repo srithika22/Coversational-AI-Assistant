@@ -66,7 +66,7 @@ npm run dev
 
 ```
 ---
-🧪 Sample Interactions
+## 🧪 Sample Interactions
 
 Q: "What’s the weather in Delhi?"
 A: "It’s 28°C and partly cloudy in Delhi."
@@ -82,7 +82,9 @@ A: "The living room light has been turned on."
 
 ---
 
-🛸 Future Enhancements
+## 🛸 Future Enhancements
+
+
 🔐 Authentication with user profiles
 
 📅 Calendar integration (Google/Outlook)
