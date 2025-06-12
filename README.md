@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
+# 🤖 Conversational AI Assistant
 
-## Project info
+A voice-activated AI assistant inspired by Alexa, built for the browser using modern web technologies. This assistant supports multi-language input, natural language understanding, context-aware conversation, and mock smart device control.
 
-**URL**: https://lovable.dev/projects/892057e7-44de-4d12-8953-19d0702cb4b5
+🟢 **Live Demo**: [Visit the app on Netlify](https://your-netlify-url.netlify.app)  
+🟣 **Hosted via**: GitHub + Netlify
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧠 Features
 
-**Use Lovable**
+- 🎙️ **Voice Input & Output**: Speak to the assistant using your microphone; hear replies via text-to-speech
+- 🌐 **Multi-language Support**: Understands English, Hindi, and other languages
+- 🔁 **Context Awareness**: Handles follow-up questions (e.g., "What about tomorrow?")
+- 💡 **Smart Task Execution**:
+  - General knowledge Q&A
+  - Setting reminders
+  - Simulated control of smart home devices
+- 📄 **Text Responses**: Every voice interaction also returns a readable response
+- 🔘 **Mock Smart Device Toggle**: Interact with virtual switches
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/892057e7-44de-4d12-8953-19d0702cb4b5) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies Used
 
-**Use your preferred IDE**
+**Frontend**:
+- Vite + React + TypeScript
+- Tailwind CSS for styling
+- shadcn/ui for components
+- Web Speech API for speech recognition and synthesis
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Backend (Mock API layer)**:
+- Flask (Python)
+- REST endpoint for intent recognition and task handling
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Other Tools**:
+- GitHub for version control
+- Netlify for deployment
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Getting Started (Local Setup)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Node.js & npm
+- Python 3.x (for the backend, if testing locally)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+### 🔧 Frontend Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate into the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
+
+
 ```
+---
+🧪 Sample Interactions
 
-**Edit a file directly in GitHub**
+Q: "What’s the weather in Delhi?"
+A: "It’s 28°C and partly cloudy in Delhi."
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Q: "And tomorrow?"
+A: "Tomorrow will be 30°C and sunny in Delhi."
 
-**Use GitHub Codespaces**
+Q: "Set a reminder for my meeting at 5 PM."
+A: "Reminder set for 5 PM."
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Q: "Turn on the living room light."
+A: "The living room light has been turned on."
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+🛸 Future Enhancements
+🔐 Authentication with user profiles
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📅 Calendar integration (Google/Outlook)
 
-## How can I deploy this project?
+📲 Cross-platform mobile app (Flutter or React Native)
 
-Simply open [Lovable](https://lovable.dev/projects/892057e7-44de-4d12-8953-19d0702cb4b5) and click on Share -> Publish.
+🌐 Real device control via IoT (MQTT, Zigbee)
 
-## Can I connect a custom domain to my Lovable project?
+🗣️ Emotion detection in voice input
 
-Yes, you can!
+📣 Custom wake word engine
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🧠 Self-learning AI via reinforcement learning
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+---
+
+
+🙌 Thank You for Visiting!
+We hope you enjoy exploring and building upon the Conversational AI Assistant.
